@@ -720,41 +720,6 @@
   ],
   "drinks": [
     {
-      "category": "Bibite analcoliche",
-      "name": "Coca Cola",
-      "nameEN": "Coca-Cola",
-      "price": "",
-      "ingredients": ""
-    },
-    {
-      "category": "Bibite analcoliche",
-      "name": "Coca Cola Zero",
-      "nameEN": "Coca-Cola Zero",
-      "price": "",
-      "ingredients": ""
-    },
-    {
-      "category": "Bibite analcoliche",
-      "name": "Coca Cola Zero Zero",
-      "nameEN": "Coca-Cola Zero Zero",
-      "price": "",
-      "ingredients": ""
-    },
-    {
-      "category": "Bibite analcoliche",
-      "name": "Fanta · HNK 25 cl",
-      "nameEN": "Fanta · HNK 25 cl",
-      "price": "€3,00",
-      "ingredients": ""
-    },
-    {
-      "category": "Bibite analcoliche",
-      "name": "HNK 50 cl",
-      "nameEN": "HNK 50 cl",
-      "price": "€5,00",
-      "ingredients": ""
-    },
-    {
       "category": "Birre",
       "name": "Affligem",
       "nameEN": "Affligem",
@@ -787,6 +752,41 @@
       "name": "Bulldog cl 40",
       "nameEN": "Bulldog 40 cl",
       "price": "€3,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "Coca Cola",
+      "nameEN": "Coca-Cola",
+      "price": "",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "Coca Cola Zero",
+      "nameEN": "Coca-Cola Zero",
+      "price": "",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "Coca Cola Zero Zero",
+      "nameEN": "Coca-Cola Zero Zero",
+      "price": "",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "Fanta · HNK 25 cl",
+      "nameEN": "Fanta · HNK 25 cl",
+      "price": "€3,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "HNK 50 cl",
+      "nameEN": "HNK 50 cl",
+      "price": "€5,00",
       "ingredients": ""
     }
   ],
