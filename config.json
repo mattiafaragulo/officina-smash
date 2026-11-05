@@ -24,7 +24,7 @@
     "url": ""
   },
   "sections": {
-    "drinks": false
+    "drinks": true
   },
   "menuLegend": null,
   "filters": [
@@ -106,7 +106,9 @@
       "about.title": "L'Officina Smash",
       "about.p1": "Officina Smash nasce dalla piastra rovente: carne smashata al momento, crosticina irresistibile e bun brioche tostato. Accendiamo la piastra, tu prepara l'appetito.",
       "about.p2": "Dagli smash burger alle braciole messinesi piastrate, dal chicken garage agli hot dog fino ai fritti da condividere: ogni morso è street food pensato per sporcarsi le mani, ma non la coscienza.",
-      "about.pizze": "Proposte"
+      "about.pizze": "Proposte",
+      "drinks.title": "Birre e Bibite",
+      "drinks.desc": "Birre e bibite analcoliche"
     },
     "en": {
       "hero.tagline": "Smash Burgers · Signature Street Food",
@@ -117,7 +119,9 @@
       "about.title": "Officina Smash",
       "about.p1": "Officina Smash is born on a sizzling griddle: meat smashed to order, an irresistible crust and a toasted brioche bun. We fire up the griddle, you bring your appetite.",
       "about.p2": "From smash burgers to griddled Messina-style braciole, from chicken garage to hot dogs and sharing fry boxes: every bite is street food made for dirty hands and clean consciences.",
-      "about.pizze": "Items"
+      "about.pizze": "Items",
+      "drinks.title": "Beers & Soft Drinks",
+      "drinks.desc": "Beers and soft drinks"
     }
   },
   "menu": [
@@ -131,7 +135,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€10,00"
+          "value": "€9,90"
         }
       ],
       "cat": "smash"
@@ -146,7 +150,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€10,00"
+          "value": "€9,90"
         }
       ],
       "cat": "smash"
@@ -161,7 +165,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€9,00"
+          "value": "€8,90"
         }
       ],
       "cat": "smash"
@@ -176,7 +180,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€10,00"
+          "value": "€9,90"
         }
       ],
       "cat": "smash",
@@ -207,7 +211,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€10,00"
+          "value": "€9,90"
         }
       ],
       "cat": "salsiccia",
@@ -223,7 +227,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€9,00"
+          "value": "€8,90"
         }
       ],
       "cat": "salsiccia"
@@ -238,7 +242,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€9,00"
+          "value": "€8,90"
         }
       ],
       "cat": "salsiccia"
@@ -253,7 +257,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€9,00"
+          "value": "€8,90"
         }
       ],
       "cat": "braciole",
@@ -269,7 +273,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€10,00"
+          "value": "€9,90"
         }
       ],
       "cat": "braciole"
@@ -284,7 +288,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€9,00"
+          "value": "€8,90"
         }
       ],
       "cat": "braciole"
@@ -299,7 +303,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€8,00"
+          "value": "€7,90"
         }
       ],
       "cat": "chicken"
@@ -314,7 +318,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€8,00"
+          "value": "€7,90"
         }
       ],
       "cat": "chicken"
@@ -329,7 +333,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€9,00"
+          "value": "€8,90"
         }
       ],
       "cat": "chicken"
@@ -344,7 +348,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€8,00"
+          "value": "€7,90"
         }
       ],
       "cat": "chicken"
@@ -368,7 +372,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€8,00"
+          "value": "€7,90"
         }
       ],
       "cat": "hotdog"
@@ -383,7 +387,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€8,00"
+          "value": "€7,90"
         }
       ],
       "cat": "hotdog"
@@ -398,7 +402,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€10,00"
+          "value": "€9,90"
         }
       ],
       "cat": "veggie"
@@ -413,7 +417,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€8,00"
+          "value": "€7,90"
         }
       ],
       "cat": "veggie"
@@ -509,7 +513,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€5,00"
+          "value": "€4,90"
         }
       ],
       "cat": "contorni"
@@ -524,7 +528,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€5,00"
+          "value": "€4,90"
         }
       ],
       "cat": "contorni"
@@ -539,7 +543,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€7,00"
+          "value": "€6,90"
         }
       ],
       "cat": "contorni"
@@ -636,7 +640,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€14,00"
+          "value": "€13,90"
         }
       ],
       "cat": "fuoribun",
@@ -652,7 +656,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€15,00"
+          "value": "€14,90"
         }
       ],
       "cat": "fuoribun"
@@ -667,7 +671,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€14,00"
+          "value": "€13,90"
         }
       ],
       "cat": "fuoribun"
@@ -682,7 +686,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€12,00"
+          "value": "€11,90"
         }
       ],
       "cat": "fuoribun"
@@ -697,7 +701,7 @@
         {
           "label": "Prezzo",
           "labelEN": "Price",
-          "value": "€10,00"
+          "value": "€9,90"
         }
       ],
       "cat": "taglieri",
@@ -714,7 +718,78 @@
       "special": true
     }
   ],
-  "drinks": [],
+  "drinks": [
+    {
+      "category": "Bibite analcoliche",
+      "name": "Coca Cola",
+      "nameEN": "Coca-Cola",
+      "price": "",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "Coca Cola Zero",
+      "nameEN": "Coca-Cola Zero",
+      "price": "",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "Coca Cola Zero Zero",
+      "nameEN": "Coca-Cola Zero Zero",
+      "price": "",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "Fanta · HNK 25 cl",
+      "nameEN": "Fanta · HNK 25 cl",
+      "price": "€3,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Bibite analcoliche",
+      "name": "HNK 50 cl",
+      "nameEN": "HNK 50 cl",
+      "price": "€5,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Birre",
+      "name": "Affligem",
+      "nameEN": "Affligem",
+      "price": "€3,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Birre",
+      "name": "Erdinger cl 30",
+      "nameEN": "Erdinger 30 cl",
+      "price": "€3,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Birre",
+      "name": "Erdinger cl 50",
+      "nameEN": "Erdinger 50 cl",
+      "price": "€3,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Birre",
+      "name": "Bulldog cl 20",
+      "nameEN": "Bulldog 20 cl",
+      "price": "€3,00",
+      "ingredients": ""
+    },
+    {
+      "category": "Birre",
+      "name": "Bulldog cl 40",
+      "nameEN": "Bulldog 40 cl",
+      "price": "€3,00",
+      "ingredients": ""
+    }
+  ],
   "stats": [
     {
       "num": "37",
