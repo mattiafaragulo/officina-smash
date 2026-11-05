@@ -1031,3 +1031,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
   .stat-num { font-size: 1.8rem; }
 }
+
+
+/* Officina Smash: mantieni visibile tutto il marchio, preservandone le proporzioni
+   nei medesimi contenitori e nelle medesime dimensioni usate da Officina Slice. */
+.logo-smash .nav-logo-circle img,
+.logo-smash .hero-logo-img,
+.logo-smash .about-logo-wrap img,
+.logo-smash .footer-logo {
+  object-fit: contain;
+}
