@@ -1041,3 +1041,16 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .logo-smash .footer-logo {
   object-fit: contain;
 }
+
+.drink-category-title {
+  grid-column: 1 / -1;
+  margin: 28px 0 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--dark-border);
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.drink-category-title:first-child { margin-top: 0; }
