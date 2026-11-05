@@ -1031,3 +1031,26 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
   .stat-num { font-size: 1.8rem; }
 }
+
+
+/* Officina Smash: mantieni visibile tutto il marchio, preservandone le proporzioni
+   nei medesimi contenitori e nelle medesime dimensioni usate da Officina Slice. */
+.logo-smash .nav-logo-circle img,
+.logo-smash .hero-logo-img,
+.logo-smash .about-logo-wrap img,
+.logo-smash .footer-logo {
+  object-fit: contain;
+}
+
+.drink-category-title {
+  grid-column: 1 / -1;
+  margin: 28px 0 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--dark-border);
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.drink-category-title:first-child { margin-top: 0; }
