@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" id="metaDescription" content="Officina Slice – Pizzeria artigianale. Menu, contatti e molto altro." />
+  <title>Officina Slice</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <div class="nav-logo-circle">
+          <img src="assets/logo.png" alt="Officina Slice" />
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+        <li><a href="#menu" data-i18n="nav.menu">Menu</a></li>
+        <li><a href="#drinks" data-i18n="nav.drinks">Drink</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contatti</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://eef46ed069e34436-q3pg2802.rchsmartorder.com/listing" target="_blank" rel="noopener" class="nav-order-btn" data-order-link aria-label="Ordina online">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span data-i18n="nav.order">Ordina</span>
+        </a>
+        <button class="lang-toggle" id="langToggle" aria-label="Toggle language">🇬🇧 EN</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-grain"></div>
+      <div class="hero-circles">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-logo-wrap">
+        <img src="assets/logo.png" alt="Officina Slice" class="hero-logo-img" />
+      </div>
+      <p class="hero-tagline" data-i18n="hero.tagline">Pizza Romana · Cocktail d'Autore</p>
+      <p class="hero-sub" data-i18n="hero.sub">Dove la tradizione incontra il carattere</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn-primary" data-i18n="hero.cta">Scopri il Menu</a>
+        <a href="#drinks" class="btn-secondary" data-i18n="hero.cta2">I Nostri Drink</a>
+        <a href="https://eef46ed069e34436-q3pg2802.rchsmartorder.com/listing" target="_blank" rel="noopener" class="btn-order" data-order-link data-i18n="hero.order">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          Ordina Online
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator"><span></span></div>
+  </section>
+
+  <section class="menu-section" id="menu">
+    <div class="section-header">
+      <span class="section-label" data-i18n="menu.label">— Menu —</span>
+      <h2 data-i18n="menu.title">Le Nostre Pizze</h2>
+      <p class="section-desc" data-i18n="menu.desc">Impasto a lievitazione naturale, ingredienti selezionati</p>
+    </div>
+    <div class="price-legend">
+      <div class="price-legend-item"><span data-i18n="legend.trancio">Trancio</span></div>
+      <div class="price-legend-sep">·</div>
+      <div class="price-legend-item"><span data-i18n="legend.mezza">Mezza Teglia</span></div>
+      <div class="price-legend-sep">·</div>
+      <div class="price-legend-item"><span data-i18n="legend.teglia">Teglia Intera</span></div>
+    </div>
+    <div class="menu-filter">
+      <button class="filter-btn active" data-cat="all" data-i18n="filter.all">Tutte</button>
+      <button class="filter-btn" data-cat="classic" data-i18n="filter.classic">Classiche</button>
+      <button class="filter-btn" data-cat="special" data-i18n="filter.special">Speciali</button>
+      <button class="filter-btn" data-cat="veggie" data-i18n="filter.veggie">Veggie</button>
+      <button class="filter-btn" data-cat="seafood" data-i18n="filter.seafood">Mare</button>
+    </div>
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+
+  <section class="drinks-section" id="drinks">
+    <div class="section-header">
+      <span class="section-label" data-i18n="drinks.label">— Bar —</span>
+      <h2 data-i18n="drinks.title">Cocktail Classici</h2>
+      <p class="section-desc" data-i18n="drinks.desc">Miscelazione d'autore, ingredienti di qualità</p>
+    </div>
+    <div class="drinks-grid" id="drinksGrid"></div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <span class="section-label" data-i18n="about.label">— Chi siamo —</span>
+        <h2 data-i18n="about.title">L'Officina</h2>
+        <p data-i18n="about.p1">Officina Slice nasce dall'idea che una buona pizza debba essere un'esperienza completa: impasto curato, ingredienti freschi e un'atmosfera unica.</p>
+        <p data-i18n="about.p2">Ogni pizza è un pezzo artigianale, preparata con passione e servita al trancio o intera. Abbinala ai nostri cocktail d'autore per un'esperienza indimenticabile.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">20+</span>
+            <span class="stat-label" data-i18n="about.pizze">Pizze</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label" data-i18n="about.artigianale">Artigianale</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">∞</span>
+            <span class="stat-label" data-i18n="about.passione">Passione</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="about-logo-wrap">
+          <img src="assets/logo.png" alt="Officina Slice" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="section-header">
+      <span class="section-label" data-i18n="contact.label">— Trovaci —</span>
+      <h2 data-i18n="contact.title">Contatti</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h3 data-i18n="contact.where">Dove siamo</h3>
+        <p id="contactAddress">Via A.Volta, 82/84<br/>Rende (CS)</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">🕐</div>
+        <h3 data-i18n="contact.hours">Orari</h3>
+        <p data-i18n="contact.hoursval">Lun-Sab: 10:30–15:00 / 17:30–00:30<br/>Domenica: 17:00–23:00<br><br>Chiuso: Domenica Mattina</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <h3 data-i18n="contact.phone">Telefono</h3>
+        <p><a href="tel:0984 401901" id="contactPhoneLink">0984 401901</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-logo-wrap">
+      <img src="assets/logo.png" alt="Officina Slice" class="footer-logo" />
+    </div>
+    <p id="footerBrand">© 2026 Officina Slice</p>
+    <p>Website created and designed by Mattia Faragulo - mattiafaragulo@libero.it</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
